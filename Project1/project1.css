@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: red;
+    overflow:hidden;
+}
+.gamecontainer{
+background-image:url(bg.png);  
+background-repeat: no-repeat;
+background-size: 100vw 100vh;
+width:100%;
+height: 100vh;
+}
+.button{
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  border: 2px solid black;
+  background-color: transparent;
+  color:black;
+  border-radius: 20px;
+  /* font-size: 2rem; */
+  font-family: Work Sans,Open Sans,Helvetica,Arial,sans-serif;
+  padding: 0.9rem 0.9rem;
+  font-size: 17px;
+  cursor: pointer;
+}
+#scorecont{
+    font-family: Work Sans,Open Sans,Helvetica,Arial,sans-serif;
+    position: absolute;;
+    right: 45px;
+    top: 31px;
+    border: 2px solid black;
+    width: 112px;
+    text-align: center;
+}
+.fighter{
+    background-image: url(superhero.png);
+    background-size: 6vw 15vh;
+    width:6%;
+    height: 15vh;
+    position: absolute;
+    bottom:0;
+    left: 10%;
+}
+.obstacle{
+    background-image: url(v1.png);
+    background-size: 7vw 15vh;
+    width:7%;
+    height: 15vh;
+    position: absolute;
+    bottom:0;
+    left: 90%;
+}
+.animatefighter{
+    animation:fighter 0.8s linear;    
+}
+.gameover{
+    position: relative;
+    top: 63px;
+    font-size: 45px;
+    text-align: center;
+    font-family: Work Sans,Open Sans,Helvetica,Arial,sans-serif;
+}
+@keyframes fighter{
+    0%{
+        bottom: 0;
+    }   
+    50%{
+        bottom:400px;
+    }
+    100%{
+        bottom: 0; 
+    }
+}
+.obstacleAni{
+    animation: obstacleAni 2s linear infinite;
+}
+@keyframes obstacleAni{
+    0%{
+        left:100vw;
+    }
+    100%{
+        left: -10vw;
+    }
+}
