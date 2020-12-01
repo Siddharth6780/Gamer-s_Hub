@@ -1,0 +1,117 @@
+body{
+    overflow-x: hidden;
+    background: rgba(152, 152, 152, 0.857);
+    width: 101%;
+}
+.links_eff:link, .links_eff:visited {
+    background-color:transparent;
+    border: 2px solid #04b3a2;
+    color:#04b3a2;
+    padding: 10px 22px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 100px;
+}
+.card-body{
+    background-color: rgb(232, 232, 232);
+}
+.links{
+    text-align: center;
+    margin-top: 5px;
+}
+.links_eff:hover, .links_eff:active {
+   background-color:#04b3a2;
+   color:white;
+}
+.heading_class{
+    height: 200px;
+    text-align: center;
+}
+.para{
+    color: #fff;
+    text-shadow: 0 0 0.25em #242424, 0 0 0.25em #242424;
+}
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 200px;
+    left: 15%;
+    z-index: 150;
+    padding-top: 100px;
+    padding-bottom: 2px;
+    color:white;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'math';
+}
+.card {
+    position: 8px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-left: 220px;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: white;
+    background-clip: border-box;
+    border: 5px solid #535353;
+    padding: 2px;
+    margin-bottom: 20px;
+}
+.row{
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.footer{
+    background-color:#2C2C2C;
+    height: 80px;
+}
+.links{
+    margin-right: 30px;
+    text-decoration: none;
+}
+.fa {
+    text-decoration: none;
+    padding: 13px;
+    width: 40px;
+    height: 40px;
+    margin-top: 25px;
+    border-radius: 50%;
+    margin-left: 25px;
+    text-align: center;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-github {
+    background: black;
+    color: white;
+  }
+.links a{
+    text-decoration: none;
+}
+.links a:hover{
+   background-color: white;
+}
+  
+  
